@@ -34,7 +34,7 @@ $(document).ready(function(){
     });
 
   $('a#buy').click(function() {
-    window.location.href ='https://play.google.com/store/apps/details?id=com.elbowroomstudios.hoylarious';
+    window.open('market://details?id=com.elbowroomstudios.hoylarious',"_system");
   });
 
 });
