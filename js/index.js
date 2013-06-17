@@ -33,9 +33,8 @@ $(document).ready(function(){
       mySwiper.swipeNext();
     });
 
-  $('#buy').click(function() {
-    console.log('working');
-    navigator.app.loadUrl('http://www.google.com', { openExternal:true });
+  $('.buy').click(function() {
+    navigator.app.loadURL('http://www.google.com', { openExternal:true } ); 
   });
 
 });
