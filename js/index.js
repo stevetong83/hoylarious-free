@@ -34,6 +34,7 @@ $(document).ready(function(){
     });
 
   $('#buy').click(function() {
+    console.log('working');
     navigator.app.loadUrl('http://www.google.com', { openExternal:true });
   });
 
