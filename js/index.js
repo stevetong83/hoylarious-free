@@ -33,6 +33,10 @@ $(document).ready(function(){
       mySwiper.swipeNext();
     });
 
+  $('#buy').click(function() {
+    navigator.app.loadUrl('http://www.google.com', { openExternal:true });
+  });
+
 });
 
  
