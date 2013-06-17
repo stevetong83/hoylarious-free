@@ -34,7 +34,7 @@ $(document).ready(function(){
     });
 
   $('.buy').click(function() {
-      navigator.app.loadURL('http://www.google.com', { openExternal:true } ); 
+    window.open('http://www.google.com', '_blank', 'toolbar=0,location=0,menubar=0');
   });
 
 });
